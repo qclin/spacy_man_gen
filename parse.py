@@ -20,19 +20,47 @@ only_past_tense_verbs=[]
 ### .pos_ is more general part of speech, .tag_ give more species to the type, ie past tense
 
 
-print "----------------- NOUN PHRASES-----------------"
-print noun_phrase_text
+# print "----------------- NOUN PHRASES-----------------"
+# print noun_phrase_text
 
-print "----------------- ADJECTIVES -----------------"
-print adjective_text
+# for sent in doc.sents: 
+#    words = list(sent)
+#    print words[0].text 
+
+sentences = list(doc.sents)
+
+# text match thru loop 
+# for item in sentences: 
+#   if item[0].text == "We": 
+#     print(item.text)
+
+cause = ["because", "therefore", "that's why","so", "thus"]
+
+### text match with regEX 
+for sent in sentences: 
+  words = list(sent)
+  for word in words:
+    if word == "because": 
+      print sent
+
+
+# find sentences with 2 or more commas
+
+
+
+
+
+
+# print "----------------- ADJECTIVES -----------------"
+# print adjective_text
 
 
 for item in doc:
     if item.tag_ == 'VBN':
         only_past_tense_verbs.append(item.text)
 
-print "----------------- VERBs in PAST TENSE -----------------"
-print only_past_tense_verbs
+# print "----------------- VERBs in PAST TENSE -----------------"
+# print only_past_tense_verbs
 
 ### using subtrees and dependency relations to grab larger syntactic units
 def flatten_subtree(st):
@@ -46,25 +74,29 @@ for word in doc:
     elif word.dep_ == 'prep':
         prep_phrases.append(flatten_subtree(word.subtree))
 
-print "----------------- subjects -----------------"
-print subjects
+# print "----------------- subjects -----------------"
+# print subjects
 
-print "----------------- prep_phrases -----------------"
-print prep_phrases
-### entity objects with labels
-print "----------------- ENTITIES -----------------"
+# print "----------------- prep_phrases -----------------"
+# print prep_phrases
+# ### entity objects with labels
+# print "----------------- ENTITIES -----------------"
 
-for item in doc.ents:
-    print item.text, item.label_
-
-
+# for item in doc.ents:
+#     print item.text, item.label_
 
 
 
+
+# **** print out all the sentences that start with noun phrase 
 
 # Patterns to look for
-# 1 - We ws You: Comparison
+# 1 - We vs You: Comparison
 # 2 - Direct Speech (verbs)
 # 3 - Descriptive: Lots of Adjectives
-# 4 - Metaphors
+# 4 - Metaphors ____ is like ____  ABJ, NOUN 
 # 5 - Present & Future tenses
+
+
+
+
