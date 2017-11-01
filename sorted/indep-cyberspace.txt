@@ -1,0 +1,50 @@
+----------------- NOUN PHRASES-----------------
+[u'the Independence', u'Cyberspace', u'John Perry Barlow', u'the Industrial World', u'flesh', u'steel', u'I', u'Cyberspace', u'Mind', u'behalf', u'the future', u'I', u'you', u'the past', u'us', u'You', u'us', u'You', u'no sovereignty', u'we', u'We', u'no elected government', u'we', u'I', u'you', u'no greater authority', u'which liberty', u'itself', u'I', u'the global social space', u'we', u'the tyrannies', u'you', u'us', u'You', u'no moral right', u'us', u'you', u'any methods', u'enforcement', u'we', u'true reason', u'Governments', u'their just powers', u'the consent', u'You', u'ours', u'We', u'you', u'You', u'us', u'you', u'our world', u'Cyberspace', u'your borders', u'you', u'it', u'it', u'a public construction project', u'You', u'It', u'an act', u'nature', u'it', u'itself', u'our collective actions', u'You', u'our great and gathering conversation', u'you', u'the wealth', u'our marketplaces', u'You', u'our culture', u'our ethics', u'the unwritten codes', u'our society', u'your impositions', u'You', u'problems', u'us', u'you', u'You', u'this claim', u'an excuse', u'our precincts', u'these problems', u'real conflicts', u'wrongs', u'we', u'them', u'them', u'our means', u'We', u'our own Social Contract', u'This governance', u'the conditions', u'our world', u'Our world', u'Cyberspace', u'transactions', u'relationships', u'itself', u'a standing wave', u'the web', u'our communications', u'Ours', u'a world', u'it', u'bodies', u'We', u'a world', u'privilege', u'prejudice', u'race', u'economic power', u'military force', u'station', u'birth', u'We', u'a world', u'anyone', u'her beliefs', u'fear', u'silence', u'conformity', u'Your legal concepts', u'property', u'expression', u'identity', u'movement', u'context', u'us', u'They', u'matter', u'Our identities', u'no bodies', u'you', u'we', u'order', u'physical coercion', u'We', u'ethics', u'enlightened self-interest', u'the commonweal', u'our governance', u'Our identities', u'your jurisdictions', u'The only law', u'all our constituent cultures', u'the Golden Rule', u'We', u'we', u'our particular solutions', u'that basis', u'we', u'the solutions', u'you', u'the United States', u'you', u'a law', u'your own Constitution', u'the dreams', u'Jefferson', u'Washington', u'Mill', u'Madison', u'DeToqueville', u'Brandeis', u'These dreams', u'us', u'You', u'your own children', u'they', u'natives', u'a world', u'you', u'immigrants', u'you', u'them', u'you', u'your bureaucracies', u'the parental responsibilities', u'you', u'yourselves', u'our world', u'all the sentiments', u'expressions', u'humanity', u'the angelic', u'parts', u'a seamless whole', u'the global conversation', u'bits', u'We', u'the air', u'the air', u'wings', u'China', u'Germany', u'France', u'Russia', u'Singapore', u'Italy', u'the United States', u'you', u'the virus', u'liberty', u'guard posts', u'the frontiers', u'Cyberspace', u'the contagion', u'a small time', u'they', u'a world', u'bit-bearing media', u'Your increasingly obsolete information industries', u'themselves', u'laws', u'America', u'that claim', u'itself', u'the world', u'These laws', u'ideas', u'another industrial product', u'pig iron', u'our world', u'the human mind', u'no cost', u'The global conveyance', u'thought', u'your factories', u'These increasingly hostile and colonial measures', u'us', u'the same position', u'those previous lovers', u'freedom', u'self-determination', u'who', u'the authorities', u'distant, uninformed powers', u'We', u'our virtual selves', u'your sovereignty', u'we', u'your rule', u'our bodies', u'We', u'ourselves', u'the Planet', u'no one', u'our thoughts', u'We', u'a civilization', u'the Mind', u'Cyberspace', u'it', u'the world', u'your governments', u'Davos']
+----------------- ADJECTIVES -----------------
+[u'weary', u'new', u'alone', u'welcome', u'greater', u'which', u'global', u'social', u'independent', u'moral', u'true', u'their', u'just', u'our', u'your', u'public', u'our', u'collective', u'our', u'great', u'our', u'our', u'our', u'unwritten', u'that', u'our', u'more', u'your', u'our', u'Many', u'real', u'our', u'our', u'own', u'our', u'Our', u'different', u'our', u'that', u'economic', u'military', u'his', u'her', u'singular', u'Your', u'legal', u'Our', u'physical', u'enlightened', u'our', u'Our', u'many', u'your', u'only', u'that', u'all', u'our', u'able', u'our', u'particular', u'which', u'your', u'own', u'terrified', u'your', u'own', u'your', u'parental', u'cowardly', u'our', u'all', u'seamless', u'global', u'that', u'which', u'small', u'that', u'Your', u'obsolete', u'industrial', u'noble', u'our', u'whatever', u'human', u'global', u'your', u'hostile', u'colonial', u'same', u'previous', u'distant', u'uninformed', u'our', u'virtual', u'immune', u'your', u'your', u'our', u'our', u'humane', u'fair', u'your']
+----------------- VERBs in PAST TENSE -----------------
+[u'elected', u'governed', u'solicited', u'received', u'engaged', u'obtained', u'arrayed', u'accorded', u'coerced', u'based', u'distributed', u'created', u'born', u'blanketed', u'reproduced', u'distributed', u'made']
+----------------- subjects -----------------
+[u'I', u'I', u'You', u'You', u'we', u'We', u'we', u'I', u'itself', u'I', u'we', u'you', u'You', u'you', u'we', u'Governments', u'You', u'We', u'You', u'you', u'Cyberspace', u'you', u'it', u'You', u'It', u'it', u'You', u'you', u'You', u'that', u'You', u'you', u'You', u'Many of these problems', u'we', u'We', u'This governance', u'Our world', u'Cyberspace', u'Ours', u'that', u'it', u'bodies', u'We', u'all', u'We', u'anyone,', u'Your legal concepts of property, expression, identity, movement, and context', u'They', u'Our identities', u'we', u'We', u'our governance', u'Our identities', u'The only law that all our constituent cultures would generally recognize', u'all our constituent cultures', u'We', u'we', u'we', u'you', u'you', u'which', u'These dreams', u'You', u'they', u'you', u'you', u'you', u'you', u'all the sentiments and expressions of humanity, from the debasing to the angelic,', u'We', u'that', u'wings', u'you', u'These', u'they', u'that', u'Your increasingly obsolete information industries', u'These laws', u'the human mind', u'The global conveyance of thought', u'These increasingly hostile and colonial measures', u'who', u'We', u'we', u'We', u'no one', u'We', u'it', u'your governments']
+----------------- prep_phrases -----------------
+[u'of the Independence of Cyberspace\n\nby John Perry Barlow', u'of Cyberspace', u'by John Perry Barlow', u'of the Industrial World', u'of flesh and steel', u'from Cyberspace, the new home of Mind', u'of Mind', u'of the future, I ask you of the past to leave us alone', u'of the past', u'among us', u'with no greater authority than that with', u'than that with', u'with', u'of the tyrannies you seek to impose on us', u'on us', u'of enforcement', u'from the consent of the governed', u'of the governed', u'within your borders', u'of nature', u'through our collective actions', u'in our great and gathering conversation', u'of our marketplaces', u'of your impositions', u'among us', u'as an excuse to invade our precincts', u'of these problems', u'by our means', u'to the conditions of our world, not yours', u'of our world', u'of transactions, relationships,', u'like a standing wave in the web of our communications', u'in the web of our communications', u'of our communications', u'without privilege or prejudice accorded by race, economic power, military force, or station of birth', u'of birth', u'without fear of being coerced into silence or conformity', u'of being coerced into silence or conformity', u'into silence or conformity', u'of property,', u'to us', u'on matter', u'unlike you', u'by physical coercion', u'from ethics, enlightened self-interest, and the commonweal', u'across many of your jurisdictions', u'of your jurisdictions', u'on that basis', u'In the United States,', u'of Jefferson, Washington, Mill, Madison, DeToqueville, and Brandeis', u'in us', u'of your own children', u'in a world where you will always be immigrants', u'with the parental responsibilities you are too cowardly to confront yourselves', u'In our world', u'of humanity', u'from the debasing to the angelic,', u'to the angelic,', u'of a seamless whole,', u'of bits', u'from the air upon which wings beat', u'upon which', u'In China, Germany, France, Russia, Singapore, Italy and the United States', u'of liberty', u'by erecting guard posts at the frontiers of Cyberspace', u'at the frontiers of Cyberspace', u'of Cyberspace', u'for a small time', u'in a world', u'in bit-bearing media', u'by proposing laws, in America and elsewhere, that claim to own', u'in America and elsewhere,', u'throughout the world', u'than pig iron', u'In our world', u'at no cost', u'of thought', u'in the same position as those previous lovers of freedom and self-determination who had to reject the authorities of distant, uninformed powers', u'as those previous lovers of freedom and self-determination who had to reject the authorities of distant, uninformed powers', u'of freedom and self-determination who had to reject the authorities of distant, uninformed powers', u'of distant, uninformed powers', u'to your sovereignty', u'to your rule over our bodies', u'over our bodies', u'across the Planet so that no one can arrest our thoughts', u'of the Mind in Cyberspace', u'in Cyberspace', u'than the world']
+----------------- ENTITIES -----------------
+# A Declaration of the Independence of Cyberspace
+
+by John Perry Barlow
+
+Governments LAW
+the Industrial World ORG
+Cyberspace ORG
+Cyberspace ORG
+Cyberspace ORG
+the Golden Rule FAC
+the United States GPE
+today DATE
+the Telecommunications Reform Act ORG
+Constitution LAW
+Jefferson, ORG
+Washington GPE
+Mill GPE
+Madison GPE
+DeToqueville GPE
+Brandeis ORG
+China GPE
+Germany GPE
+France GPE
+Russia GPE
+Singapore GPE
+Italy GPE
+the United States GPE
+Cyberspace GPE
+America GPE
+These NORP
+Cyberspace GPE
+
+
+GPE
+Davos GPE
+Switzerland GPE
+February 8, 1996 DATE
+Francecowardlytransactionsof enforcementsentiments
+orThese laws
