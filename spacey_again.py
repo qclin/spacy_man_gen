@@ -5,14 +5,17 @@ from random import choice, shuffle
 
 nlp = spacy.load('en')
 
+
+# ###### get the tags of a sample sentence
 # docc = nlp("Our highest priority is to satisfy the customer through early and continuous delivery of valuable software")
-
-# load and feed text in right format
-text = sys.stdin.read().decode('utf8', errors="replace")
-doc = nlp(text)
-
 # for item in docc: 
 #   print item.text, item.pos_, item.tag_ 
+
+
+
+# load and feed text in right format
+text = sys.stdin.read().decode('utf8', errors="ignore")
+doc = nlp(text)
 
 
 pronoun_possessive = [item.text for item in doc if item.tag_ == 'PRP$']
