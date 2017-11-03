@@ -1,0 +1,34 @@
+[u'We', u'it', u'it', u'we', u'we', u'We', u'them', u'they', u'them', u'it', u'it', u'it', u'it', u'we', u'I', u'I', u'it', u'me', u'we', u'itself', u'it', u'We', u'We', u'we', u'We', u'We', u'we', u'We', u'they', u'it', u'it', u'it', u'them', u'it', u'I', u'I', u'I', u'I', u'it', u'it', u'them', u'I', u'I', u'I', u'they', u'I', u'me', u'I', u'I', u'I', u'I', u'me', u'it', u'I', u'I', u'them', u'I', u'I', u'It', u'them', u'it', u'them', u'They', u'we', u'us', u'us', u'we', u'I', u'You', u'I', u'I', u'you', u'you', u'them', u'I', u'it', u'I', u'I', u'I', u'I', u'them', u'It', u'them', u'himself', u'them', u'him', u'it', u'I', u'it', u'them', u'you', u'It', u'It', u'it', u'it', u'they', u'You', u'We', u'one', u'you', u'you', u'you', u'It', u'them', u'them', u'they', u'themselves', u'it', u'they', u'us', u'You', u'you', u'It', u'it', u'one', u'it', u'it', u'You', u'you', u'You', u'they', u'you', u'you', u'you', u'I', u'it', u'they', u'they', u'one', u'it', u'we', u'I', u'I', u'it', u'I', u'us', u'we', u'We', u'it', u'it', u'it', u'them', u'It', u'it', u'it', u'it', u'It', u'they', u'they', u'it', u'They', u'it', u'it', u'it', u'them', u'we', u'we', u'we', u'him', u'we', u'it', u'it', u'they', u'they', u'we', u'he', u'them', u'you', u'you', u'He', u'them', u'it', u'it', u'they', u'they', u'they', u'They', u'itself', u'them', u'they', u'it', u'they', u'We', u'they', u'we', u'we', u'You', u'you', u'it', u'it', u'It', u'you', u'them', u'I', u'himself', u'he', u'He', u'he', u'it', u'He', u'he', u'they', u'themselves', u'themselves', u'We', u'itself', u'We', u'us', u'them', u'I', u'it', u'I', u'We', u'I', u'it', u'you', u'it', u'it', u'You', u'I', u'I', u'It', u'I', u'I', u'it', u'it', u'I', u'it', u'we', u'you', u'you', u'it', u'It', u'It', u'they', u'it', u'it', u'You', u'it', u'It', u'You', u'it', u'you', u'they', u'they', u'them', u'you', u'You', u'You', u'it', u'You', u'It', u'you', u'You', u'You', u'It', u'you', u'you', u'You', u'you', u'you', u'you', u'you', u'it', u'you', u'you', u'You', u'we', u'We', u'it', u'yourself', u'you', u'they', u'You', u'you', u'you', u'you', u'you', u'you', u'We', u'we', u'we', u'we', u'we', u'I', u'It', u'me', u'I', u'I', u'I', u'He', u'we', u'they', u'they', u'them', u'you', u'you', u'it', u'you', u'it', u'it', u'It', u'you', u'you', u'it', u'me', u'I', u'I', u'It', u'It', u'you', u'they', u'It', u'it', u'it', u'it', u'it', u'it'] [u'are', u'do', u'have', u'value', u'follow', u'Welcome', u'need', u'promote', u'emerge', u'have', u'have', u'am', u'are', u'are', u'have', u'are', u'are', u'hope', u'are', u'plan', u'are', u'consider', u'like', u'like', u'want', u'agree', u'refuse', u'are', u'have', u'have', u'seem', u'think', u'want', u'remain', u'Want', u'have', u'are', u'want', u'are', u'decide', u'believe', u'do', u'become', u'think', u'use', u'talk', u'am', u"'m", u'donate', u'have', u'are', u'get', u"'m", u'view', u'are', u'chuck', u'have', u'have', u'are', u'know', u'need', u'do', u'sell', u'do', u'are', u'benefit', u'get', u'do', u'do', u'deserve', u'deserve', u'deserve', u'restrict', u'are', u'are', u'reduce', u'are', u'do', u'result', u'am', u'are', u'do', u'are', u'are', u'make', u'do', u'have', u'say', u'are', u'are', u'do', u'do', u'use', u'have', u'are', u'have', u'are', u'are', u'are', u'get', u'encourage', u'are', u'get', u'run', u'are', u'keep', u'have', u'become', u'show', u'do', u'do', u'are', u'need', u'demand', u'stop', u'have', u"'re", u'have', u'need', u'are', u'want', u'are', u'have', u'are', u'care', u'are', u'have', u'are', u'do', u'interpret', u'have', u'have', u'pay', u'help', u'recommend', u'exist', u'think', u'raise', u'urge', u'lead', u'form', u'are', u'are', u'are', u'want', u'include', u'are', u'are', u'are', u'Are', u'are', u'are', u'are', u'use', u"'re", u"'re", u'are', u'encourage', u'have', u'need', u'need', u'need', u'need', u'become', u'haven\u2019t', u'communicate', u'cost', u'know', u'are', u'have', u'are', u'use', u'\u2019re', u'drop', u'have', u'agree', u'buy', u'get', u'Do', u'\u2019m', u'say', u'determine', u'distribute'] [u'there', u'there', u'There', u'There', u'there', u'There', u'there', u'There', u'there', u'There', u'There', u'there', u'There']
+You require not get years of us of itself have to be
+----------------------------------------------
+You spend more Are Footnotes below us by they have to object
+----------------------------------------------
+You make There have laptops of us of me cost to discover
+----------------------------------------------
+You study there are systems with us to it help to get
+----------------------------------------------
+You give normally want areas of us because it become to replace
+----------------------------------------------
+You spend Specifically are activities for us with We are to become
+----------------------------------------------
+You be not are requirements by us for it do to be
+----------------------------------------------
+You support normally are upgrades as us for We encourage to be
+----------------------------------------------
+You be not Welcome words to us of You use to learn
+----------------------------------------------
+You be more like businesses in us if We seem to avoid
+----------------------------------------------
+You save entirely lead cultures for us if it get to feel
+----------------------------------------------
+You Give nearly are advocates of us of it are to pay
+----------------------------------------------
+You pay when are companies of us for You include to emulate
+----------------------------------------------
+You discover constantly have specifications with us that it am to keep
+----------------------------------------------
+You want not have copies If us If you are to be
+----------------------------------------------
+You use as deserve details of us about I talk to use
+----------------------------------------------
+You have Not refuse Phrases of us with He 

@@ -14,7 +14,7 @@ gerunds = [item.text for item in doc if item.tag_ == 'VBG']
 noun_phrase = [item.text.strip() for item in doc.noun_chunks]
 
 
-# POS___  
+# POS___
 nouns = [item.text for item in doc if item.pos_ == 'NOUN']
 adjectives = [item.text for item in doc if item.pos_ == 'ADJ']
 adjectives_tag = [item.tag_ for item in doc if item.pos_ == 'ADJ']
@@ -32,7 +32,7 @@ verbs_non_modal = []
 for item in doc:
     if item.pos_ == 'VERB':
       # print item.text, item.tag_
-      if item.tag_ == 'MD': 
+      if item.tag_ == 'MD':
         verbs_modal.append(item.text)
       else:
         verbs_non_modal.append(item.text)
@@ -45,7 +45,7 @@ proper_nouns = [item.text for item in doc if item.pos_ == 'PROPN']
 pronouns = [item.text for item in doc if item.pos_ == 'PRON']
 particles = [item.text for item in doc if item.pos_ == 'PART']
 
-#### TAG___ 
+#### TAG___
 
 
 
@@ -72,7 +72,7 @@ adverbs = [item.text for item in doc if item.tag_ == 'RB']
 comparative_adverbs = [item.text for item in doc if item.tag_ == 'RBR']
 
 pure_verbs = [item.text for item in doc if item.tag_ == 'VB']
-verb_singular_third = [item.text for item in doc if item.tag_ == 'VBZ'] 
+verb_singular_third = [item.text for item in doc if item.tag_ == 'VBZ']
 
 prepositions_prep = [item.text for item in doc if item.tag_ == 'ADPR']
 prepositions_post = [item.text for item in doc if item.tag_ == 'ADPO']
@@ -86,30 +86,30 @@ only_past_tense_verbs=[]
 # print "----------------- NOUN PHRASES-----------------"
 # print noun_phrase
 
-# for sent in doc.sents: 
+# for sent in doc.sents:
 #    words = list(sent)
-#    print words[0].text 
+#    print words[0].text
 
 sentences = list(doc.sents)
 
-# text match thru loop 
-# for item in sentences: 
-#   if item[0].text == "We": 
+# text match thru loop
+# for item in sentences:
+#   if item[0].text == "We":
 #     print(item.text)
 
 
-### sentences with more than 2 commas 
-# for item in sentences: 
-#   if item.text.count(',') > 2: 
+### sentences with more than 2 commas
+# for item in sentences:
+#   if item.text.count(',') > 2:
 #     print(item.text)
 
 # cause = ["because", "therefore", "that's why","so", "thus", "so that"]
 
-# ### text match with regEX 
-# for sent in sentences: 
+# ### text match with regEX
+# for sent in sentences:
 #   words = list(sent)
 #   for word in words:
-#     if word == "because": 
+#     if word == "because":
 #       print sent
 
 
@@ -158,19 +158,19 @@ for word in doc:
 
 
 
-# **** print out all the sentences that start with noun phrase 
+# **** print out all the sentences that start with noun phrase
 
 # Patterns to look for
 # 1 - We vs You: Comparison
 # 2 - Direct Speech (verbs)
 # 3 - Descriptive: Lots of Adjectives
-# 4 - Metaphors ____ is like ____  ABJ, NOUN 
+# 4 - Metaphors ____ is like ____  ABJ, NOUN
 # 5 - Present & Future tenses
 
 
 # you weary giant of flesh and steel
-# NP + ADJ + N + P + N   |  CONJ + NP 
-# for i in range(20): 
+# NP + ADJ + N + P + N   |  CONJ + NP
+# for i in range(20):
 
 #   print ' '.join([choice(noun_phrase),choice(adjectives),choice(nouns),choice(prep_phrases),choice(nouns)])
 
@@ -187,7 +187,7 @@ print "satisfy the consumer"
 print "V_non_modal + DET + N"
 
 print "through"
-print "ADP" 
+print "ADP"
 
 print "early and continous"
 print "ADJ + CONJ + ADJ"
@@ -197,8 +197,8 @@ print "N + P + ADJ + N"
 
 print "----------------------------------------------------- "
 
-def run_sentence(): 
-  for i in range(20): 
+def run_sentence():
+  for i in range(20):
     print ' ,'.join([choice(pure_adjectives), choice(pure_adjectives), choice(pure_adjectives)]),
     np_sentence = ' '.join([choice(determiners), choice(pure_adjectives), choice(nouns)])
     print np_sentence ,
@@ -213,5 +213,3 @@ def run_sentence():
     print " ----------------------------------------------------- "
 
 # run_sentence()
-
-
