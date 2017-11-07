@@ -1,0 +1,9 @@
+You have no sovereignty where we gather.
+You nsubj
+have ROOT
+no det
+sovereignty dobj
+where advmod
+we nsubj
+gather relcl
+. punct
