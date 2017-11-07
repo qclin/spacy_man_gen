@@ -11,6 +11,6 @@ def parse_sen():
     print sentence
     doc = nlp(sentence)
     for item in doc:
-      print item.text, item.pos_, item.tag_
+      print item.text, item.pos_, item.tag_, item.dep_
 
 parse_sen()

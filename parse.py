@@ -9,8 +9,7 @@ text = sys.stdin.read().decode('utf8', errors="replace")
 doc = nlp(text)
 
 people = [item.text for item in doc.ents if item.label_ == 'PERSON']
-gerunds = [item.text for item in doc if item.tag_ == 'VBG']
-
+gerunds = [item.text for item in doc if item.tag_ == 'VBG'] # verb - ing
 noun_phrase = [item.text.strip() for item in doc.noun_chunks]
 
 

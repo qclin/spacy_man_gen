@@ -1,0 +1,53 @@
+LABEL	DESCRIPTION
+acomp	adjectival complement
+advcl	adverbial clause modifier
+advmod	adverbial modifier
+agent	agent
+amod	adjectival modifier
+appos	appositional modifier
+attr	attribute
+aux	auxiliary
+auxpass	auxiliary (passive)
+cc	coordinating conjunction
+ccomp	clausal complement
+complm	complementizer
+conj	conjunct
+cop	copula
+csubj	clausal subject
+csubjpass	clausal subject (passive)
+dep	unclassified dependent
+det	determiner
+dobj	direct object
+expl	expletive
+hmod	modifier in hyphenation
+hyph	hyphen
+infmod	infinitival modifier
+intj	interjection
+iobj	indirect object
+mark	marker
+meta	meta modifier
+neg	negation modifier
+nmod	modifier of nominal
+nn	noun compound modifier
+npadvmod	noun phrase as adverbial modifier
+nsubj	nominal subject
+nsubjpass	nominal subject (passive)
+num	number modifier
+number	number compound modifier
+oprd	object predicate
+obj	object
+obl	oblique nominal
+parataxis	parataxis
+partmod	participal modifier
+pcomp	complement of preposition
+pobj	object of preposition
+poss	possession modifier
+possessive	possessive modifier
+preconj	pre-correlative conjunction
+prep	prepositional modifier
+prt	particle
+punct	punctuation
+quantmod	modifier of quantifier
+rcmod	relative clause modifier
+root	root
+xcomp	open clausal complement

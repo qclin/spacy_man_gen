@@ -2,6 +2,7 @@ from __future__ import unicode_literals
 import spacy
 import sys
 from random import choice, shuffle
+from spacy.symbols import nsubj
 
 nlp = spacy.load('en')
 
@@ -60,6 +61,7 @@ existential_there = [item.text for item in doc if item.tag_ == 'EX']
 adjective_base = [item.text for item in doc if item.tag_ == 'JJ']
 conjunction_coor = [item.text for item in doc if item.tag_ == 'CC']
 
+
 def gen_three_adj():
     print ', '.join([choice(adjective_base), choice(adjective_base), choice(adjective_base)])
 def gen_sentence_a():
@@ -67,19 +69,18 @@ def gen_sentence_a():
     print ' '.join([choice(pronoun_possessive), choice(adjective_base), choice(noun_singular)]),
     print ' '.join([choice(verb_singular_third_present),choice(infinitival_to)]),
     print ' '.join([choice(verb_base), choice(determiner), choice(noun_singular)]),
+
     print ' '.join([choice(conjunction_sub_pre), choice(adjective_base), choice(conjunction_coor), choice(adjective_base), choice(noun_singular)]),
     print ' '.join([choice(conjunction_sub_pre), choice(adjective_base), choice(noun_singular)])
     # print '----------------------------------------------'
 
 def gen_sentence_b():
     string = "You claim there are problems among us that you need to solve."
-    print pronoun_personal, verb_non_third_present, existential_there
     for i in range(20):
         print ' '.join(["You", choice(verb_base), choice(adverbs)]),
         print ' '.join([choice(verb_non_third_present), choice(noun_plural), choice(conjunction_sub_pre)]),
-        print ' '.join(["us", choice(conjunction_sub_pre), choice(pronoun_personal)]),
+        print ' '.join(["our", choice(conjunction_sub_pre), choice(pronoun_personal)]),
         print ' '.join([choice(verb_non_third_present), choice(infinitival_to), choice(verb_base)])
-        print '----------------------------------------------'
 
 
 def gen_sentence_c():
@@ -94,17 +95,19 @@ def gen_sentence_d():
 
 
 def gen_sentence_e():
-    for i in range(20):
-        # TO + VB + DT + NN + VBZ + RB + DT + NN
-        # [this is not that] should try to use antynomns
-        print ' '.join([choice(infinitival_to), choice(verb_base), choice(determiner)]),
-        print ' '.join([choice(noun_singular), "is not "]), #choice(verb_non_third_present), choice(adverbs)
-        # print ' '.join([choice(determiner), choice(noun_singular)])
-        print choice(subjects)
+    # TO + VB + DT + NN + VBZ + RB + DT + NN
+    # [this is not that] should try to use antynomns
+    print ' '.join([choice(infinitival_to), choice(verb_base), choice(determiner)]),
+    print ' '.join([choice(noun_singular), "is not "]), #choice(verb_non_third_present), choice(adverbs)
+    # print ' '.join([choice(determiner), choice(noun_singular)])
+    print choice(subjects)
 
-gen_sentence_a()
-gen_sentence_d()
-gen_sentence_a()
-gen_three_adj()
-gen_sentence_d()
-gen_sentence_d()
+
+for i in range(21):
+    gen_sentence_a()
+    gen_sentence_d()
+    gen_sentence_a()
+    gen_three_adj()
+    gen_sentence_d()
+    gen_sentence_d()
+    print "\n\n -------------------------------------------------------------------- \n \n"
