@@ -1,0 +1,14 @@
+You claim there are problems among us that you need to solve.
+You PRON PRP
+claim VERB VBP
+there ADV EX
+are VERB VBP
+problems NOUN NNS
+among ADP IN
+us PRON PRP
+that ADP IN
+you PRON PRP
+need VERB VBP
+to PART TO
+solve VERB VB
+. PUNCT .

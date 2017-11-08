@@ -1,0 +1,8 @@
+Every body should understand computers.
+
+Every DET DT
+body NOUN NN
+should VERB MD
+understand VERB VB
+computers NOUN NNS
+. PUNCT .
