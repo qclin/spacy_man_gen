@@ -43,10 +43,10 @@ import os
 # text = "its full history awaits to depose the history of invisible or terrified platform on precise #.  That justice will disguise actions.  your own campaign has to remain a bottom of female and credible # of ferocious justice.  many, geographical, plural.  no site must cloud decisions.  The union can be Engineers."
 
 
-text = "our universal garden has to burn the nothing to seamless neither positive # of social musician the Xenofeminism can."
+text = "Good morning, welcome."
 
-tts = gTTS(text= text, lang='en-uk')
-tts.save("tts_audio/14_universal_garden-en-uk.mp3")
+tts = gTTS(text= text, lang='en')
+tts.save("audios/goodmorning.mp3")
 
 
 

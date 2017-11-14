@@ -1,0 +1,63 @@
+sentence b
+
+
+
+# We nsubj
+# , punct
+# the det
+# European compound
+# Pirates appos
+# , punct
+# want ROOT
+# society nsubj
+# to aux
+# welcome ccomp
+# and cc
+# adjust conj
+# to prep
+# the det
+# digital amod
+# revolution pobj
+# : punct
+# choice(doc.ents),
+
+
+
+sentence c
+
+# You have no sovereignty where we gather.
+# You nsubj
+# have ROOT
+# no det
+# sovereignty dobj
+# where advmod
+# we nsubj
+# gather relcl
+# . punct
+
+
+
+sentence d
+
+
+# You nsubj
+# have aux
+# not neg
+# engaged ROOT
+# in prep
+# our poss
+# great amod
+# and cc
+# gathering conj
+# conversation pobj
+# , punct
+# nor cc
+# did aux
+# you nsubj
+# create conj
+# the det
+# wealth dobj
+# of prep
+# our poss
+# marketplaces pobj
+# . punct

@@ -1,10 +1,11 @@
+# -*- encoding: utf-8 -*-
 from __future__ import unicode_literals
 import spacy
 import sys
 from random import choice, shuffle
 from spacy.symbols import nsubj
 
-nlp = spacy.load('en')
+nlp = spacy.load('en_core_web_sm')
 
 # load and feed text in right format
 text = sys.stdin.read().decode('utf8', errors="ignore")
@@ -102,12 +103,14 @@ def gen_sentence_e():
     # print ' '.join([choice(determiner), choice(noun_singular)])
     print choice(subjects)
 
+# kaomoji = [  "__φ(．．)", "( ￣ー￣)φ__",	"__φ(。。)",	"__φ(．．;)", "ヾ( `ー´)シφ__", "__〆(￣ー￣ )", "....φ(・∀・*)", "___〆(・∀・)", "( ^▽^)ψ__", "....φ(︶▽︶)φ....", "( . .)φ__	", "__φ(◎◎ヘ)"]
+
 
 for i in range(21):
+    print "\n  ---------------- Manifesto for the noble self ----------------  \n"
     gen_sentence_a()
     gen_sentence_d()
     gen_sentence_a()
     gen_three_adj()
     gen_sentence_d()
     gen_sentence_d()
-    print "\n\n -------------------------------------------------------------------- \n \n"
